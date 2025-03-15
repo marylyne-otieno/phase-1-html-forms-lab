@@ -12,23 +12,38 @@
 
     <!-- First, create a form tag where our inputs will be nested -->
 
+    <form action="#" method="POST">
 
       <!-- Add a label for 'fullname'-->
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter Name" required>
 
       <!-- Add a text input with the id and name attributes set to 'fullname' -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter Email" required>
+
+
       <!-- Include the place holder text "Enter Name" and make this input required -->
 
 
       <!-- Add a label for 'email'-->
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter Telephone (optional)">
+
+
 
       <!-- Add a email input with the id and name attributes set to 'email' -->
       <!-- Include the place holder text "Enter Email" and make this input required -->
 
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Enter Message"></textarea>
 
       <!-- Add a label for 'phone'-->
 
       <!-- Add a telephone input with the id and name attributes set to 'phone' -->
       <!-- Include the place holder text "Enter Telephone (optional)" -->
+      <input type="checkbox" id="checkbox" name="subscribe">
+      <label for="checkbox">Subscribe to our newsletter</label>
 
 
       <!-- Add a label for 'message'-->
@@ -38,11 +53,12 @@
 
 
       <!-- Add a checkbox input with the id set to 'checkbox' -->
+      <input type="submit" value="Submit">
 
 
 
       <!-- Add an input with the type set to 'submit' -->
 
-    
+
   </body>
 </html>
